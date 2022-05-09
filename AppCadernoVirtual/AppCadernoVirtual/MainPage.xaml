@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.MainPage">
+
+    <StackLayout>
+        <Image Source="https://cdn1.mundodastribos.com/wp-admin/uploads/2011/01/ETEC-Jau-SP-Cursos-Enderecos.jpg" HeightRequest="300"> </Image>
+        <Button Text="Primeiro Ano" Clicked="Button_Clicked_17" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold"  />
+        <Button Text="Segundo Ano" Clicked="Button_Clicked_18" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold"  />
+        <Button Text="Terceiro Ano" Clicked="Button_Clicked_19" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold" />
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Primeiro.TerceiroANO">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+              <Image Source="https://cdn1.mundodastribos.com/wp-admin/uploads/2011/01/ETEC-Jau-SP-Cursos-Enderecos.jpg" HeightRequest="300"></Image>
+              <Button Text="Educação Física" Clicked="Button_Clicked" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold" />
+              <Button Text="Física" Clicked="Button_Clicked_1" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold" />
+              <Button Text="Inglês" Clicked="Button_Clicked_2" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold" />
+              <Button Text="Português" Clicked="Button_Clicked_3" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold" />
+              <Button Text="Matemática" Clicked="Button_Clicked_4" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold" />
+              <Button Text="Filosofia" Clicked="Button_Clicked_5" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold" />
+              <Button Text="Biologia" Clicked="Button_Clicked_6" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold" />
+              <Button Text="Geografia" Clicked="Button_Clicked_7" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold" />
+              <Button Text="História" Clicked="Button_Clicked_8" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold" />
+              <Button Text="Química" Clicked="Button_Clicked_9" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold" />
+              <Button Text="Sociologia" Clicked="Button_Clicked_10" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold" />
+              <Button Text="Programaçãon Web III" Clicked="Button_Clicked_11" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold" />
+              <Button Text="Programação Mobile II" Clicked="Button_Clicked_12" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold" />
+              <Button Text="Internet" Clicked="Button_Clicked_13" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold" />
+              <Button Text="TCC" Clicked="Button_Clicked_14" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold" />
+              <Button Text="Qualidade e Teste de Software" Clicked="Button_Clicked_15" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold" />
+         </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
