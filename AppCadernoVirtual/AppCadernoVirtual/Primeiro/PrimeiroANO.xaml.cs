@@ -29,7 +29,7 @@ namespace AppCadernoVirtual.Primeiro
 
         private void Button_Clicked_2(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new FisicaPrimeiro());
+            Navigation.PushAsync(new Fisica());
         }
 
         private void Button_Clicked_3(object sender, EventArgs e)

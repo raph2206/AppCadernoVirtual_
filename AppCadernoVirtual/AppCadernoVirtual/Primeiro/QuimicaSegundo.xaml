@@ -4,9 +4,7 @@
              x:Class="AppCadernoVirtual.Primeiro.QuimicaSegundo">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Image Source="https://cdn1.mundodastribos.com/wp-admin/uploads/2011/01/ETEC-Jau-SP-Cursos-Enderecos.jpg" HeightRequest="300"></Image>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
