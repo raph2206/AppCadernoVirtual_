@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppCadernoVirtual.MainPage">
 
-    <StackLayout>
+    <StackLayout BackgroundColor="White">
         <!--Adicionando a logo da Etec através de uma URL B)-->
         <Image Source="https://cdn1.mundodastribos.com/wp-admin/uploads/2011/01/ETEC-Jau-SP-Cursos-Enderecos.jpg" HeightRequest="300"> </Image>
 

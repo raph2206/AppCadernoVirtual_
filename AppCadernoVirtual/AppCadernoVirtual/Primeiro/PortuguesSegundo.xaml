@@ -3,8 +3,29 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppCadernoVirtual.Primeiro.PortuguesSegundo">
     <ContentPage.Content>
-        <StackLayout>
-            <Image Source="https://cdn1.mundodastribos.com/wp-admin/uploads/2011/01/ETEC-Jau-SP-Cursos-Enderecos.jpg" HeightRequest="300"></Image>
-        </StackLayout>
+        <!--ScrollView Adicionado para que seja possível descer a tela-->
+        <ScrollView>
+            <StackLayout>
+                <!--Adicionando a logo da Etec através de uma URL B)-->
+                <Image Source="https://cdn1.mundodastribos.com/wp-admin/uploads/2011/01/ETEC-Jau-SP-Cursos-Enderecos.jpg" HeightRequest="300"></Image>
+
+                <!--Conteúdo adicionado através de Labels, com fonte alterada para ser legível-->
+                <Label Text="Análise do tema" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+                <Label Text="Localização de informações" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+                <Label Text="Reconhecimento de mensagens" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+                <Label Text="Opinião crítica" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+                <Label Text="Hipotetização" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+                <Label Text="Generalização" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+                <Label Text="Inferência" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+                <Label Text="Teoria literária" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+                <Label Text="Variação linguística" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+                <Label Text="Denotação / conotação" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+                <Label Text="Gêneros literários" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+                <Label Text="Barroco" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+                <Label Text="Acentuação gráfica" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+                <Label Text="Coerência" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+                <Label Text="Sintaxe de concordância verbal e nominal" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

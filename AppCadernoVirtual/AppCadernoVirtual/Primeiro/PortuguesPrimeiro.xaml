@@ -3,14 +3,29 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppCadernoVirtual.Primeiro.PortuguesPrimeiro">
     <ContentPage.Content>
-        <StackLayout>
+        <!--ScrollView Adicionado para que seja possível descer a tela-->
+        <ScrollView>
+            <StackLayout>
             <!--Adicionando a logo da Etec através de uma URL B)-->
             <Image Source="https://cdn1.mundodastribos.com/wp-admin/uploads/2011/01/ETEC-Jau-SP-Cursos-Enderecos.jpg" HeightRequest="300"></Image>
             
             <!--Conteúdo adicionado através de Labels, com fonte alterada para ser legível-->
-            <Label></Label>
-            <Label Text="Aprendemos a Escrever" HorizontalTextAlignment="Center" FontSize="Medium"> </Label>
-            <Label Text="Aprendemos a Ler" HorizontalTextAlignment="Center" FontSize="Medium"> </Label>
-        </StackLayout>
+            <Label Text="Textos verbais e não-verbais" HorizontalTextAlignment="Center" FontSize="Medium"> </Label>
+            <Label Text="Percepção do uso adequado da língua em situações diversas" HorizontalTextAlignment="Center" FontSize="Medium"> </Label>
+            <Label Text="Gêneros textuais: notícia, reportagem, artigo de opinião, editorial, conto e crônica" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+            <Label Text="Textos narrativos e argumentativos" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+            <Label Text="Tipo de leitor e finalidade do texto" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+            <Label Text="Texto x Contexto" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+            <Label Text=" Linguagem formal e informal" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+            <Label Text="Tipos textuais: narração e argumentação" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+            <Label Text="Produção de textos narrativos" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+            <Label Text="Paragrafação" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+            <Label Text=" Domínio da relação dos termos na estrutura frasal" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+            <Label Text="Frase, oração e período" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+            <Label Text="Período simples" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+            <Label Text=" Período composto por coordenação e por subordinação" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+            <Label Text="Pontuação" HorizontalTextAlignment="Center" FontSize="Medium"></Label>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
