@@ -4,7 +4,10 @@
              x:Class="AppCadernoVirtual.MainPage">
 
     <StackLayout>
+        <!--Adicionando a logo da Etec através de uma URL B)-->
         <Image Source="https://cdn1.mundodastribos.com/wp-admin/uploads/2011/01/ETEC-Jau-SP-Cursos-Enderecos.jpg" HeightRequest="300"> </Image>
+
+        <!--Adicionando os Botões com Clicked que terão a função definida no cs da MainPage-->
         <Button Text="Primeiro Ano" Clicked="Button_Clicked_17" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold"  />
         <Button Text="Segundo Ano" Clicked="Button_Clicked_18" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold"  />
         <Button Text="Terceiro Ano" Clicked="Button_Clicked_19" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold" />

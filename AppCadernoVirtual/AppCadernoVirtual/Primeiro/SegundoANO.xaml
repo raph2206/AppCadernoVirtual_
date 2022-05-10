@@ -3,9 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppCadernoVirtual.Primeiro.SegundoANO">
     <ContentPage.Content>
+        <!--ScrollView Adicionado para que seja possível descer a tela-->
         <ScrollView>
             <StackLayout>
+              <!--Adicionando a logo da Etec através de uma URL B)-->
               <Image Source="https://cdn1.mundodastribos.com/wp-admin/uploads/2011/01/ETEC-Jau-SP-Cursos-Enderecos.jpg" HeightRequest="300"></Image>
+                
+              <!--Adicionando os Botões com Clicked que terão a função definida no cs do SegundoANO-->
               <Button Text="Português" Clicked="Button_Clicked" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold" />
               <Button Text="Educação Física" Clicked="Button_Clicked_1" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold" />
               <Button Text="Física" Clicked="Button_Clicked_2" BackgroundColor="#640C0C" TextColor="#FFFFFF" FontAttributes="Bold" />

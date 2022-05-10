@@ -16,11 +16,14 @@ namespace AppCadernoVirtual
             InitializeComponent();
         }
 
+        // Manipulador de eventos criado para o botão ter uma função ao ser clicado
         private void Button_Clicked_17(object sender, EventArgs e)
         {
+            // Através do Navigation, sempre que o úsuario clicar no botão, será redirecionado para a tela "PrimeiroANO", dando acesso a mais botões :/
             Navigation.PushAsync(new PrimeiroANO());
         }
 
+        // A mesma coisa para os manipuladores abaixo, vão redirecionar para suas respectivas telas
         private void Button_Clicked_18(object sender, EventArgs e)
         {
             Navigation.PushAsync(new SegundoANO());

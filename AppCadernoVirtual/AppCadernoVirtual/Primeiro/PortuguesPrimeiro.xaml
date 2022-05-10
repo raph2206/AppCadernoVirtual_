@@ -4,8 +4,13 @@
              x:Class="AppCadernoVirtual.Primeiro.PortuguesPrimeiro">
     <ContentPage.Content>
         <StackLayout>
+            <!--Adicionando a logo da Etec através de uma URL B)-->
             <Image Source="https://cdn1.mundodastribos.com/wp-admin/uploads/2011/01/ETEC-Jau-SP-Cursos-Enderecos.jpg" HeightRequest="300"></Image>
-            <Label Text="Escrever" HorizontalTextAlignment="Center"> </Label>
+            
+            <!--Conteúdo adicionado através de Labels, com fonte alterada para ser legível-->
+            <Label></Label>
+            <Label Text="Aprendemos a Escrever" HorizontalTextAlignment="Center" FontSize="Medium"> </Label>
+            <Label Text="Aprendemos a Ler" HorizontalTextAlignment="Center" FontSize="Medium"> </Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
